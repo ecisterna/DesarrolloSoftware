@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ranking de productos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="hu23.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div class="topnav">
+            <a id="logo" href="#Home">
+                <img src="https://github.com/Gu1ll0te/Trabajo-Integrador/blob/HU/buen%20(1).png" id="logardo">
+            </a>
+            <div class="search-container">
+                <form>
+                  <input type="text" placeholder="Buscar" name="search">
+                  <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <div class="botonCarrito">
+                <form>
+                    <button type="button"><i class="fa-solid fa-cart-shopping"></i></button>
+                </form>
+            </div>
+            <a href="#Home">Home</a>
+            <a href="#Menu">Menu</a>
+            <a href="#Ordenar">Ordenar</a>
+            <div class="botonPerfil">
+                <button type="button">Mi cuenta <i class="fa-solid fa-user"></i></button>
+            </div>
+        </div><br>
+        <p id="admin">Administración</p>
+        <div id="contenedortopnav2">
+            <div id="topnav2">
+                <a class="active" href="#RankingProducts">Ranking de productos</a>
+                <a href="#RankingClients">Ranking de Clientes</a>
+                <a href="#MovMon">Movimientos Monetarios</a>
+            </div>
+        </div>
+    </header><br><br>
+
+    <div class="fechas">
+        <form>
+            <label for="fechaDesde">Desde</label>
+            <input type="date" name="fechaDesde" id="fechaDesde">
+            <label for="fechaHasta">Hasta</label>
+            <input type="date" name="fechaHasta" id="fechaHasta">
+            <button id="botonardoAplicar" type="button">Aplicar</button>
+        </form>
+    </div><br>
+
+        <div id="contenedorTabla">
+            <table class="myTable">
+                <tr>
+                    <th>Tipo de Producto</th>
+                    <th>Producto</th>
+                    <th>Cantidad Vendida</th>
+                </tr>
+                <tr>
+                    <td>Cocina</td>
+                    <td>Hamburguesa cheddar</td>
+                    <td>42</td>
+                </tr>
+                <tr>
+                    <td>Cocina</td>
+                    <td>Pizza Muzzarella</td>
+                    <td>39</td>
+                </tr>
+                <tr>
+                    <td>Cocina</td>
+                    <td>Pizza Especial</td>
+                    <td>34</td>
+                </tr>
+                <tr>
+                    <td>Cocina</td>
+                    <td>Hamburguesa Hass</td>
+                    <td>27</td>
+                </tr>
+                <tr>
+                    <td>Cocina</td>
+                    <td>Lomo Común</td>
+                    <td>24</td>
+                </tr>
+                <tr>
+                    <td>Bebida</td>
+                    <td>Cerveza Artesanal</td>
+                    <td>22</td>
+                </tr>
+                <tr>
+                    <td>Cocina</td>
+                    <td>Super pancho</td>
+                    <td>19</td>
+                </tr>
+                <tr>
+                    <td>Bebida</td>
+                    <td>Bebida Cola</td>
+                    <td>14</td>
+                </tr>
+            </table>
+        </div>
+
+        <button id="botonardoExportar" type="button">Exportar</button>
+
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="hu22.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>Stock</title>
+</head>
+<body>
+    <header>
+        <div class="topnav">
+            <a id="logo" href="#Home">
+                <img src="buen (1).png" id="logardo">
+            </a>
+            <div class="search-container">
+                <form>
+                  <input type="text" placeholder="Buscar" name="search">
+                  <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <div class="botonCarrito">
+                <form>
+                    <button type="button"><i class="fa-solid fa-cart-shopping"></i></button>
+                </form>
+            </div>
+            <a href="#Home">Home</a>
+            <a href="#Menu">Menu</a>
+            <a href="#Ordenar">Ordenar</a>
+            <div class="botonPerfil">
+                <button type="button">Mi cuenta <i class="fa-solid fa-user"></i></button>
+            </div>
+        </div><br>
+        <p id="cocina">Cocina</p>
+        <div id="contenedortopnav2">
+            <div id="topnav2">
+                <a href="#Pedidos">Pedidos</a>
+                <a class="active" href="#Stock">Stock</a>
+                <a href="#Rubros">Rubros</a>
+            </div>
+        </div>
+    </header><br><br>
+
+    <div id="contenedorTabla">
+        <div id="bloque1">
+            <div id="bloque2">
+                <h3 class="Productos">Productos</h3>
+            </div>
+            <div id="contenedorBotonNuevoIngrediente">
+                <a href="#">
+                    <button id="NuevoIngr">Nuevo</i></button>
+                </a>
+                <div class="barraBuscar">
+                    <input type="text" placeholder="Buscar" name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </div>
+            </div>
+            <table class="tabloide">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Rubro</th>
+                        <th>Tiempo de Cocina</th>
+                        <th>Precio</th>
+                        <th>Estado</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>Producto</td>
+                    <td>Rubro</td>
+                    <td>30min</td>
+                    <td>$2500</td>
+                    <td class="estadoBaja">Baja</td>
+                    <td><button type="button" id="lapiz"><i class="fa-solid fa-pencil"></i></button>
+                    <button id="bin"><i class="fa-solid fa-trash"></i></button></td>
+                </tr>
+                <tr>
+                    <td>Producto</td>
+                    <td>Rubro</td>
+                    <td>30min</td>
+                    <td>$2500</td>
+                    <td class="estadoAlta">Alta</td>
+                    <td><button type="button" id="lapiz"><i class="fa-solid fa-pencil"></i></button>
+                    <button id="bin"><i class="fa-solid fa-trash"></i></button></td>
+                </tr>
+                <tr>
+                    <td>Producto</td>
+                    <td>Rubro</td>
+                    <td>30min</td>
+                    <td>$2500</td>
+                    <td class="estadoAlta">Alta</td>
+                    <td><button type="button" id="lapiz"><i class="fa-solid fa-pencil"></i></button>
+                    <button id="bin"><i class="fa-solid fa-trash"></i></button></td>
+                </tr>
+                <tr>
+                    <td>Producto</td>
+                    <td>Rubro</td>
+                    <td>30min</td>
+                    <td>$2500</td>
+                    <td class="estadoBaja">Baja</td>
+                    <td><button type="button" id="lapiz"><i class="fa-solid fa-pencil"></i></button>
+                    <button id="bin"><i class="fa-solid fa-trash"></i></button></td>
+                </tr>
+                <tr>
+                    <td>Producto</td>
+                    <td>Rubro</td>
+                    <td>30min</td>
+                    <td>$2500</td>
+                    <td class="estadoBaja">Baja</td>
+                    <td><button type="button" id="lapiz"><i class="fa-solid fa-pencil"></i></button>
+                    <button id="bin"><i class="fa-solid fa-trash"></i></button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</body>
+</html>
